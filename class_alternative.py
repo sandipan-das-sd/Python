@@ -18,7 +18,7 @@ Employee1 = Employee("Sandipan", "50000000")
 print("Details of Employee1")
 print(Employee1.name)
 print(Employee1.salary)
-
+n
 # Define a string 'Ranita' representing Employee2's data
 Ranita = "Ranita-5000000"
 
