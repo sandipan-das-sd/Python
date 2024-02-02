@@ -1,0 +1,110 @@
+Function defination:
+---------------------
+def f(a,b,c):
+    statement_1
+    statement_2
+    ..
+    return(v)
+•Function name,arguments/parameters
+•Body is intended
+•return() statement exits and returns a value
+
+Passing value to functions
+---------------------------
+
+•Argument value is substituted for name
+    def power(x,n):
+        ans=1
+        for i in range(0,n):
+            ans=ans*x
+        return(ans)
+
+•Like an impliclit assignment statement
+
+Passing values...
+------------------
+•Some rules apply for mutable,immutable values
+•Immutable values will not be affected at calling point
+•Mutable values will be affected.
+
+Example
+------------
+def update (l,i,v):
+                                            ns=[3,11,12]
+if i>=0 and i<len⁡(l):                        z=8
+    l[i]=( v)                                 update (ns,2,z)
+        return(True)                          update( n,4,z )
+    else:   
+        v=v+1                                   
+            return(False)
+
+
+•ns is [3,11,8]
+• z remains 8
+• Return value may be ignored
+•if there is no return() function ends when last statement is reached
+
+
+Scope of names
+-----------------
+•Names within a function have local scope
+def stupid⁡(x) :
+    n=17
+        return⁡(x)
+n=7
+v= stupid(28)
+# What is n now?
+•n is still 7
+	•Name n inside function is separate from n outside
+
+Defining functions
+-------------------
+•A function must be defined before it is invoked
+•This is OK
+def f(x) :
+    return g(x+1)
+
+def g(y) :
+    return (y+3)
+
+z=f(77)
+
+•This is not 
+def f(x) : 
+    return g(x+1)
+
+z=f(77)
+
+def g(y) :
+    return (y+3)
+
+
+Recursive functions:-
+--------------------
+•A function can call itself - recursion
+def factorial(n):
+    if n<=0 :
+        return (1)
+    else:
+        val =n* factorial (n-1)
+            return(val)
+
+
+n!=n(n-1)(n-2).....
+    ----------------
+    (n-1)!   
+
+Summary
+--------
+•	Functions are a good way to organise code in logical chunks
+•	Passing arguments to a function is like assigning values to names
+•	Only mutable values can be updated
+•	Names in functions have local scope
+•	Functions must be defined before use
+•	Recursion - a function can call itself
+
+
+
+
+
+
