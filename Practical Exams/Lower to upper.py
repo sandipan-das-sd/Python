@@ -8,7 +8,7 @@ print(lowerString)
 def convert_to_lowercase(string):
     """Converts an uppercase string to lowercase."""
     result = ""
-    for char in string:
+    for char in string:  
         if 'A' <= char <= 'Z':
             # Convert uppercase character to lowercase by adding 32 to its ASCII value
             result += chr(ord(char) +32 )
