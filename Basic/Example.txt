@@ -53,7 +53,7 @@ for and while
 	•Range to scan not known in advance, use whi le
 
 for and while
-•Can use whi le to simulate for
+•Can use while to simulate for
 for n in range⁡(i,j):              n=i
 statement
                                 while n<j :
