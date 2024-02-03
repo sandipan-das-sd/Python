@@ -1,0 +1,27 @@
+Sequences of values
+
+•	Two basic ways of storing a sequence of values
+    •	Arrays
+    •	Lists
+•	What's the difference?
+
+Arrays
+-------
+•	Single block of memory, elements of uniform type
+	•Typically size of sequence is fixed in advance
+•	Indexing is fast
+	•Access seq[i] in constant time for any i
+	•Compute offset from start of memory block
+•	Inserting between seq[i] and seq [i+1] is expensive
+•	Contraction is expensive
+
+Lists
+-------
+•	Values scattered in memory
+•	Each element points to the next- "linked" list
+•	Flexible size
+•Follow i links to acces seq[i]
+ •Cost proportional to i
+
+
+
