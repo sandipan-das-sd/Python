@@ -69,7 +69,7 @@ for n in l :
                                                    statement
                                                    i=i+1
 
-•	Can use whi le to simulate for
+•	Can use while to simulate for
 •	However, use for where it is natural
 •	Makes for more readable code
 •	What makes a good program?
