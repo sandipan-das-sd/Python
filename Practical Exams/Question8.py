@@ -1,4 +1,4 @@
-#9.	Write a Python program to convert a string to upper case letters using user-defined function.
+#9.Write a Python program to convert a string to upper case letters using user-defined function.
 lowerString=input("Enter the lower string\n")
 #using nouser defined function
 upperString=lowerString.upper()
