@@ -79,6 +79,31 @@ Other functions
 •	l. rindex (x) - find rightmost position of x in l
 •	Many more ... see Python documentation!
 
+Initialising names
+------------------
+•	A name cannot be used before it is assigned a value
+y=x+1 # Error if x is unassigned
+•	May forget this for lists where update is implicit
+         l.append ( v )
+•	Python needs to know that I is a list
+
+Initialising names ...
+----------------------
+def factors(n):
+    for i in range (1,n+1) :
+        if n%i==0 :
+            flist.append(i)
+    return(flist)
+
+
+Summary
+---------
+•	To extend lists in place, use l. append(), l. extend()
+•	Can also assign new value, in place, to a slice
+•	Many built in functions for lists - see documentation
+•	Don't forget to assign a value to a name before it is first used
+
+
 
 
 
