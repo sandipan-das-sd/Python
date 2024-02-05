@@ -6,7 +6,7 @@ def gcd(m, n):
         return gcd(n, m % n)
 
 def hcf(a, b):
-    return a // gcd(a, b)
+    return gcd(a, b)
 
 p = int(input("Enter the first number: "))
 q = int(input("Enter the second number: "))

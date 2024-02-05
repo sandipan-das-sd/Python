@@ -5,8 +5,10 @@ print("Enter the strings to the tuple:")
 
 for i in range(n):
     element = input()
-    Tupple += (element,) 
+    Tupple += (element,) #tupple=tuplle+element
+                                        
 
+print("The tupple is ",Tupple)
 new_Tupple = () 
 
 for item in Tupple:
