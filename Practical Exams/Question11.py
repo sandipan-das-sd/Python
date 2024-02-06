@@ -1,5 +1,5 @@
-#11.	Write a Program in Python to Generate the Fibonacci Series up to Nth Term.
-# 1+ 1 + 2 + 3 + 5 + 8 + 13 + . . . . + Nth Term
+# #11.	Write a Program in Python to Generate the Fibonacci Series up to Nth Term.
+# # 1+ 1 + 2 + 3 + 5 + 8 + 13 + . . . . + Nth Term
 
 n = int(input("Enter up to which term you want to print the Fibonacci number: "))
 # Initialize first two terms
@@ -23,3 +23,11 @@ else:
         a, b = b, next_term
 
     print("=", sum)
+n = int(input("Enter the number of Fibonacci numbers to generate: "))
+
+fibonacci = [0, 1]
+for _ in range(n - 2):
+    fibonacci.append(fibonacci[-1] + fibonacci[-2])
+
+print(fibonacci[:n])
+
