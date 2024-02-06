@@ -1,10 +1,8 @@
-number = int(input("Enter a number to find its factorial: "))
-
-factorial = 1
-steps = []
-
-for i in range(number, 0, -1):
-    factorial *= i
-    steps.append(i)
-
-print("The factorial of", number, "is", factorial, "and the steps are", steps)
+number=int(input('Enter the number to find factorial:-'))
+step=[]
+factorial=1
+for i in range(number,0,-1):
+    factorial*=i
+    step.append(i)
+print("The factorial is:-",factorial)
+print("The step is:-",step)
