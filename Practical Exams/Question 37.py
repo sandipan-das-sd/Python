@@ -28,3 +28,17 @@ for num in list1:
 my_list = [odd_product, even_product]
 
 print("The modified list is:", my_list)
+
+'''
+[1,3,5]
+even no 1,3,5
+1*3*5=15
+5
+1*1=1
+1*3=3
+3*5=15
+even_product=
+
+
+
+'''
