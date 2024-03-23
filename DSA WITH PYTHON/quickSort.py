@@ -34,15 +34,6 @@ def partition(elements):
     swap(pivot_index, end, elements)
 
 
-def quick_sort(elements):
-    '''
-    Function to perform quick sort on the list of elements.
-    '''
-    partition(elements)  # Call partition function
 
 
-if __name__ == '__main__':
-    # Test case
-    elements = [11, 9, 29, 7, 2, 15, 28]
-    quick_sort(elements)  # Call quick_sort function
-    print(elements)  # Print sorted elements
+             
