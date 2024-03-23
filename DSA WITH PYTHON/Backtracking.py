@@ -15,6 +15,7 @@ def placequeen(i, board):  # Function definition taking current row index i and 
         undo this move and update board  # Undo the previous move (remove the queen from (i, c) and update the board)
 else:  # If all columns in this row have been tried but failed
     return False  # Return False, indicating failure to place queens in subsequent rows
+    
 '''
 
 def placequeen(i, board):
