@@ -40,6 +40,6 @@ def build_tree(elements):
     return root
 
 if __name__ == '__main__':
-    numbers = [1, 2, 3, 4, 5, 6]
+    numbers = [5,8,1,6,10,2,3,58,9,7,12]
     numbers_tree = build_tree(numbers)
     print(numbers_tree.in_order_traversal())
