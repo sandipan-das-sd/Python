@@ -1,2 +1,0 @@
-Welcome to File opening
-This is an additional line.
